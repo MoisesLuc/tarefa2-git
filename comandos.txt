@@ -1,0 +1,31 @@
+Moisés Lucena de Oliveira
+
+git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead
+
+git add texto.txt
+
+git commit -m "commit texto"
+
+git checkout -b "feature-1"
+
+git commit -am "commit feature-1"
+
+git checkout main
+
+git commit -am "altera texto.txt baseado em feature-1"
+
+git merge feature-1
+
+git commit -am "resolve conflito de merge"
+
+git checkout -b add-comandos
+
+git remote add origin-atividade https://github.com/MoisesLuc/tarefa2-git.git
+
+git add comandos.txt
+
+git commit -m "commita comandos"
+
+git push origin-atividade main
+
+git push origin-atividade add-comandos
